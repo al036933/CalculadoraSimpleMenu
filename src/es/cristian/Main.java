@@ -30,6 +30,8 @@ public class Main {
             n2 = entrada.nextInt();
             resultado = n1-n2;
             System.out.println("" + n1 + " - " + n2 + " = " + resultado);
+        } else if (opcion == 0) {
+            System.out.println();
         }
 
         entrada.close();
